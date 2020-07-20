@@ -8,12 +8,13 @@ body {
     background: rgb(183, 232, 255);
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 50px;
+    width: 100vw;
 }
 
 header {
     margin: 10px 30px 0px 30px;
     display: grid;
-    grid-template-columns: 1fr 350px;
+    grid-template-columns: 1fr 2fr;
 }
 
 .logo-img {
