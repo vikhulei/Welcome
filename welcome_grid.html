@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="welcome_grid.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo-img" src="ukraine-logo.png" alt="logo">
+        <nav>
+            <input type="checkbox" id="menu-button">
+            <label for="menu-button" class="menu-icon"><img src="hamburger.png"></label>
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Opportunities</a></li>
+                <li><a href="#">Challenges</a></li>
+                <li><a href="#">Useful Links</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="welcome">
+        <h1>Welcome to Ukraine!</h1>
+        <img class="welcome-img" src="ukraine-main.jpg" alt="main picture">
+        <p class="welcome-text">Glad to see you at this site! This means you are interested in the country of Ukraine
+            and would like to know more about it. A fully independent Ukraine emerged only late in the 20th century,
+            after long periods of successive domination by Poland-Lithuania, Russia, and the Union of Soviet Socialist
+            Republics (U.S.S.R.). Ukraine had experienced a brief period of independence in 1918–20, but portions of
+            western Ukraine were ruled by Poland, Romania, and Czechoslovakia in the period between the two World Wars,
+            and Ukraine thereafter became part of the Soviet Union as the Ukrainian Soviet Socialist Republic (S.S.R.).
+            When the Soviet Union began to unravel in 1990–91, the legislature of the Ukrainian S.S.R. declared
+            sovereignty (July 16, 1990) and then outright independence (August 24, 1991), a move that was confirmed by
+            popular approval in a plebiscite (December 1, 1991). With the dissolution of the U.S.S.R. in December 1991,
+            Ukraine gained full independence. You may read more at this <a href="#">link</a></p>
+    </section>
+    <section class="survey">
+        <h2>May we ask you to take a small survey:</h2>
+        <form class="survey-form" action="" method="GET" name="survey-form">
+        <ul class="survey-ul">
+            <li>
+                <label for="q1">How did you know about Ukraine?</label>
+                <select name="q1">
+                    <option value="friends">From my friends</option>
+                    <option value="internet">On the Internet</option>
+                    <option value="books">From the books</option>
+                </select>
+            </li>
+            <li>
+                <label for="q2">What is a primary purpose of your visit?</label>
+                <select name="q2">
+                    <option value="holiday">Hoiliday</option>
+                    <option value="work">Work</option>
+                    <option value="other">Other</option>
+                </select>
+            </li>
+            <li>
+                <label for="q3">Have you visited it before?</label>
+                <select name="q3">
+                    <option value="many">Many times</option>
+                    <option value="few">Few times</option>
+                    <option value="never">Never</option>
+                </select>
+            </li>
+            <li class="radio-question">
+                <p class="radio-q">Would you reccommend it to others?</p>
+                <div class="radio-b">
+                    <label class="radio-label">Yes</label>
+                    <input checked="checked" class= "radio" type="radio" name="q4" value="Yes">
+                    <label class="radio-label">No</label>
+                    <input class="radio" type="radio" name="q4" value="No">
+                </div>
+            </li>
+        </ul>
+        </form>
+        <div class="button-submit">
+            <button class="btn">Submit</button>    
+        </div>
+        <h2 id="thanks">Thank you!</h2>
+    </section>
+
+    <footer>
+        <h2>Please let us know if you would like to know more!</h2>
+        <div class="footer-wrapper">
+            <ul class="ul-contacts">
+                <li>Our address:</li>
+                <li>Saksahanskoho Str., 111<br>Kyiv 01032<br>Ukraine</li>
+                <li>Email:</li>
+                <li>someaddress@gmail.com</li>
+            </ul>
+            <div class="question">
+                <p class="your-question">Your question:</p>
+                <textarea name="textarea" placeholder="Type your question here"></textarea>
+                <div class="button-send"><button class="btn">Send</button></div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
